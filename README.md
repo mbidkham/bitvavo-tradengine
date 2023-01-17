@@ -3,15 +3,18 @@
     A simple java based code for creating orderbook, sending orders and producing trades.
 
 ## how do I run it?
+
 Before Installation , you have to install java11 and maven in your machine.
-* note : There are some TestCases that you can run with maven : 
+
+* note : There are some TestCases that you can run with maven :
+
 ```shell 
 ./mvnw test  
 or :
 mvn test
 ```
-* Clean install
 
+* Clean install
 ```shell
 ./mvnw clean install 
  or 
@@ -20,9 +23,13 @@ mvn test
 ```
 
 * Run app
-
 ```shell
 java -jar TradingEngine-1.0-SNAPSHOT.jar   
+```
+
+* JavaDoc
+```shell
+  mvn javadoc:javadoc
 ```
 
 ## How it works:
